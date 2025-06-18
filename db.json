@@ -1,5 +1,400 @@
 {
-  "profiles": [],
-  "clothes": [],
-  "categories": []
+  "profiles": [
+    {
+      "id": 1,
+      "nombre": "Ana",
+      "apellidos": "García López",
+      "email": "ana@example.com",
+      "password": "password123",
+      "direccion": "Calle Principal 123, Ciudad",
+      "tipo": "comprador",
+      "imageprofile": "https://img.freepik.com/foto-gratis/mujer-joven-hermosa-sueter-rosa-calido-aspecto-natural-sonriente-retrato-aislado-cabello-largo_285396-896.jpg?semt=ais_hybrid&w=740",
+      "armario": [
+        "P016"
+      ],
+      "favoritos": [
+        "P003",
+        "P004"
+      ],
+      "publicados": [
+        "P001",
+        "P002",
+        "P013"
+      ],
+      "vendidos": [
+        "P005",
+        "P006"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos",
+      "apellidos": "Martínez Ruiz",
+      "email": "carlos@example.com",
+      "password": "password123",
+      "direccion": "Avenida Central 456, Ciudad",
+      "tipo": "comprador",
+      "imageprofile": "https://media.istockphoto.com/id/1335941248/es/foto/foto-de-un-joven-guapo-de-pie-sobre-un-fondo-gris.jpg?s=612x612&w=0&k=20&c=UK8BGVVCSmHen0sJAgxoZ6sBLrs0ld4TuCwczZZ89AY=",
+      "armario": [
+        "P007"
+      ],
+      "favoritos": [
+        "P001",
+        "P002"
+      ],
+      "publicados": [
+        "P014",
+        "P008"
+      ],
+        "vendidos": []
+    },
+    {
+      "id": 3,
+      "nombre": "María",
+      "apellidos": "Rodríguez Sánchez",
+      "email": "maria@example.com",
+      "password": "securepass456",
+      "direccion": "Plaza Mayor 789, Ciudad",
+      "tipo": "comprador",
+      "imageprofile": "https://img.freepik.com/foto-gratis/mujer-joven-hermosa-sueter-rosa-calido-aspecto-natural-sonriente-retrato-aislado-cabello-largo_285396-896.jpg?semt=ais_hybrid&w=740",
+      "armario": [
+        "P005",
+        "P006",
+        "P009"
+      ],
+      "favoritos": [],
+      "publicados": [
+        "P003",
+        "P004",
+        "P015"
+      ],
+      "vendidos": []
+    },
+    {
+      "id": 4,
+      "nombre": "Loreley",
+      "apellidos": "Sarmiento",
+      "email": "sarmientoloreley@gmail.com",
+      "password": "123456",
+      "direccion": "Jiron Intisuyo 279",
+      "armario": [],
+      "favoritos": [],
+      "publicados": [],
+      "vendidos": [],
+      "apiId": "v1"
+    },
+    {
+      "id": 5,
+      "nombre": "Lucía",
+      "apellidos": "Fernández Pérez",
+      "email": "lucia@example.com",
+      "password": "lucia123",
+      "direccion": "Av. Siempre Viva 123",
+      "armario": [],
+      "favoritos": [],
+      "publicados": [
+        "P011",
+        "P012"
+      ],
+      "vendidos": [],
+      "imageprofile": "https://media.istockphoto.com/id/1389348844/es/foto/foto-de-estudio-de-una-hermosa-joven-sonriendo-mientras-est%C3%A1-de-pie-sobre-un-fondo-gris.jpg?s=612x612&w=0&k=20&c=kUufmNoTnDcRbyeHhU1wRiip-fNjTWP9owjHf75frFQ=",
+      "apiId": "v1"
+    },
+    {
+      "nombre": "hola",
+      "apellidos": "hola",
+      "email": "canelito@gmail.com",
+      "direccion": "comas",
+      "password": "hola",
+      "tipo": "comprador",
+      "apiId": "v1",
+      "id": 6
+    }
+  ],
+  "clothes": [
+    {
+      "id": "P001",
+      "nombre": "Polo de New York",
+      "descripcion": "Polo traído de New York, usado solo un par de veces, escríbeme para más información.",
+      "precio": 30,
+      "tipo": "polo",
+      "talla": "M",
+      "color": "negro",
+      "usuario": 1,
+      "imagen": "https://shopthearena.com/cdn/shop/files/N123MP012-Front-Flat.jpg?v=1736490963",
+      "categorias": [
+        "C005"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P002",
+      "nombre": "Pantalón Denim Clásico",
+      "descripcion": "Pantalón denim azul, corte recto y cómodo, perfecto para uso diario.",
+      "precio": 70,
+      "tipo": "pantalón",
+      "talla": "32",
+      "color": "azul",
+      "usuario": 1,
+      "imagen": "https://pieers.com/media/catalog/product/cache/334416996b13b45056f516cf8b55981c/p/e/ped03134czz-1.jpg",
+      "categorias": [
+        "C001"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P003",
+      "nombre": "Vestido Floral",
+      "descripcion": "Vestido ligero y fresco con estampado floral, ideal para primavera.",
+      "precio": 90,
+      "tipo": "vestido",
+      "talla": "M",
+      "color": "rosa",
+      "usuario": 3,
+      "imagen": "https://cortefiel.com/on/demandware.static/-/Sites-gc-ctf-master-catalog/default/dw29227c95/images/hi-res/P_644909999D8.jpg",
+      "categorias": [
+        "C002"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P004",
+      "nombre": "Zapatillas Urbanas",
+      "descripcion": "Zapatillas cómodas para uso diario con diseño moderno.",
+      "precio": 120,
+      "tipo": "zapatillas",
+      "talla": "42",
+      "color": "blanco",
+      "usuario": 3,
+      "imagen": "https://media.falabella.com/falabellaPE/19836437_1/w=1500,h=1500,fit=pad",
+      "categorias": [
+        "C003"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P005",
+      "nombre": "Gabardina Clásica",
+      "descripcion": "Gabardina elegante para clima frío, resistente al agua.",
+      "precio": 150,
+      "tipo": "gabardina",
+      "talla": "L",
+      "color": "beige",
+      "usuario": 3,
+      "imagen": "https://static.zara.net/assets/public/3c34/15c2/5d1e45b189ed/b571f91e67be/00518252711-e1/00518252711-e1.jpg?ts=1725627810159&w=362&f=auto",
+      "categorias": [
+        "C004"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P006",
+      "nombre": "Camisa Formal Blanca",
+      "descripcion": "Camisa blanca de algodón, ideal para reuniones formales.",
+      "precio": 80,
+      "tipo": "camisa",
+      "talla": "L",
+      "color": "blanco",
+      "usuario": 3,
+      "imagen": "https://m.media-amazon.com/images/I/41kkW35Aa7S._AC_SL1200_.jpg",
+      "categorias": [
+        "C007"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P007",
+      "nombre": "Casaca Deportiva",
+      "descripcion": "Casaca ligera para entrenamientos y días frescos.",
+      "precio": 100,
+      "tipo": "casaca",
+      "talla": "M",
+      "color": "gris",
+      "usuario": 2,
+      "imagen": "https://unsplash.com/es/fotos/camiseta-blanca-con-cuello-redondo-acn5ERAeSb4",
+      "categorias": [
+        "C006"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P008",
+      "nombre": "Polo Blanco",
+      "descripcion": "Polo blanco de algodón suave, perfecto para uso diario.",
+      "precio": "20",
+      "tipo": "polo",
+      "talla": "M",
+      "color": "blanco",
+      "usuario": 2,
+      "imagen": "https://tu-servidor.com/imagenes/polo-blanco.png",
+      "categorias": [
+        "C005"
+      ],
+      "apiId": "v1",
+      "title": "Polo Básico Blanco"
+    },
+    {
+      "id": "P009",
+      "nombre": "Pantalón Cargo",
+      "descripcion": "Pantalón cargo con bolsillos múltiples, ideal para aventuras.",
+      "precio": 85,
+      "tipo": "pantalón",
+      "talla": "34",
+      "color": "verde militar",
+      "usuario": 3,
+      "imagen": "https://tu-servidor.com/imagenes/pantalon-cargo.png",
+      "categorias": [
+        "C001"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P010",
+      "nombre": "Vestido de Fiesta",
+      "descripcion": "Vestido elegante para eventos especiales, diseño moderno.",
+      "precio": 200,
+      "tipo": "vestido",
+      "talla": "S",
+      "color": "rojo",
+      "usuario": 3,
+      "imagen": "https://tu-servidor.com/imagenes/vestido-fiesta.png",
+      "categorias": [
+        "C002"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P011",
+      "nombre": "Sweater Vintage",
+      "descripcion": "Sweater de lana gruesa, perfecto para invierno.",
+      "precio": 65,
+      "tipo": "suéter",
+      "talla": "M",
+      "color": "beige",
+      "usuario": 5,
+      "imagen": "https://m.media-amazon.com/images/I/61ev4CQgJHL._AC_UY1000_.jpg",
+      "categorias": [
+        "C009"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P012",
+      "nombre": "Falda Plisada",
+      "descripcion": "Falda plisada corta en color azul marino.",
+      "precio": 45,
+      "tipo": "falda",
+      "talla": "S",
+      "color": "azul marino",
+      "usuario": 5,
+      "imagen": "https://i.ebayimg.com/thumbs/images/g/JFsAAOSwNn9nnqvE/s-l1200.jpg",
+      "categorias": [],
+      "apiId": "v1"
+    },
+    {
+      "id": "P013",
+      "nombre": "Chaqueta de Cuero",
+      "descripcion": "Chaqueta negra de cuero auténtico, estilo biker.",
+      "precio": 180,
+      "tipo": "chaqueta",
+      "talla": "L",
+      "color": "negro",
+      "usuario": 1,
+      "imagen": "https://i.ebayimg.com/thumbs/images/g/NnkAAeSwt5Jn841y/s-l1200.jpg",
+      "categorias": [
+        "C006"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P014",
+      "nombre": "Zapatos Oxford",
+      "descripcion": "Zapatos formales para hombre en cuero café.",
+      "precio": 120,
+      "tipo": "zapatos",
+      "talla": "42",
+      "color": "café",
+      "usuario": 2,
+      "imagen": "https://i.ebayimg.com/thumbs/images/g/yuUAAeSwDTNoEZf-/s-l1200.jpg",
+      "categorias": [
+        "C003"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P015",
+      "nombre": "Blusa Estampada",
+      "descripcion": "Blusa ligera con estampado floral y mangas largas.",
+      "precio": 50,
+      "tipo": "blusa",
+      "talla": "M",
+      "color": "rojo",
+      "usuario": 3,
+      "imagen": "https://i.ebayimg.com/thumbs/images/g/sp4AAOSwg2RkpCcB/s-l1200.jpg",
+      "categorias": [
+        "C007"
+      ],
+      "apiId": "v1"
+    },
+    {
+      "id": "P016",
+      "nombre": "polo",
+      "descripcion": "polito",
+      "precio": 90,
+      "tipo": "polo",
+      "talla": "M",
+      "color": "rosado",
+      "usuario": 1,
+      "imagen": "https://estilote.com/wp-content/uploads/2024/12/polo-nina-3.webp",
+      "categorias": [],
+      "apiId": "v1"
+    }
+  ],
+  "categories": [
+    {
+      "id": "C001",
+      "nombre": "pantalones",
+      "imagen": "https://www.squeeze.pe/assets/upload/producto/5081143887_2.jpg"
+    },
+    {
+      "id": "C002",
+      "nombre": "vestidos",
+      "imagen": "https://m.media-amazon.com/images/I/617VcmGhnHL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "C003",
+      "nombre": "zapatillas",
+      "imagen": "https://m.media-amazon.com/images/I/71fXr16ZvvL._AC_SL1100_.jpg"
+    },
+    {
+      "id": "C004",
+      "nombre": "gabardinas",
+      "imagen": "https://www.sulmarizala.com/wp-content/uploads/2022/03/SA-002-6-scaled.jpg"
+    },
+    {
+      "id": "C005",
+      "nombre": "polos",
+      "imagen": "https://i.ebayimg.com/images/g/ZC8AAOSw0aZlnWdC/s-l400.jpg"
+    },
+    {
+      "id": "C006",
+      "nombre": "chaquetas",
+      "imagen": "https://i.ebayimg.com/thumbs/images/g/Au0AAOSwLHxm8z9j/s-l1200.jpg"
+    },
+    {
+      "id": "C007",
+      "nombre": "camisas",
+      "imagen": "https://www.prolaboral.com/182470-home_default/camisa-m-c-mujer-velilla-405010.jpg"
+    },
+    {
+      "id": "C008",
+      "nombre": "accesorios",
+      "imagen": "https://i.ebayimg.com/thumbs/images/g/h4wAAOSwj1toAU0f/s-l1200.jpg"
+    },
+    {
+      "id": "C009",
+      "nombre": "suéteres",
+      "imagen": "https://m.media-amazon.com/images/I/61XxKTWKMWL._AC_UY1000_.jpg"
+    }
+  ]
 }
